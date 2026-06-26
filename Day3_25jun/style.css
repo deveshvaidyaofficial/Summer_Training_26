@@ -1,0 +1,49 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.4s;
+    margin:0;
+    padding:20px;
+}
+#intro{
+    text-align:center;
+}
+
+#Change-Theme{
+    position: fixed;
+    align-items: end;
+    top:20px;
+    right:20px;
+    padding:10px 20px;
+    cursor:pointer;
+    border:none;
+    border-radius:5px;
+    color:black;
+    font-size:16px;
+}
+
+#day3{
+    align-items: baseline;
+    position:fixed;
+    font-size:16px;
+}
+
+#portfolio{
+    width:80%;
+    margin:auto;
+    padding:20px;
+    transition:0.4s;
+}
+
+.light-mode{
+    background:white;
+    color:black;
+}
+
+.dark-mode{
+    background:black;
+    color:white;
+}
+
+.dark-mode a{
+    color:#66b3ff;
+}
