@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Weather Reporting App
+        </title>
+</head>
+<body>
+<hr>
+<br>
+<div id="intro">
+<h1>| The Weather App | </h1> </div>
+<br>
+<hr>
+Enter the City Name <input type="text" id="city" 
+maxlength="100" placeholder="Enter city name : " >
+<button id="search" > Search Now</button>
+<button id="clear">Clear</button>
+<p id="loading" class="hidden">Loading...</p>
+<p id="error" class="hidden"></p>
+<div id="weatherCard" class="weather-card hidden">
+            <div id="cityName">Name of the City : <h2 id="cityName"></h2></div>
+            <p id="country">Name of the country :</p>
+            <p id="dateTime">Date and time at the location</p>
+            <p>Average Temperature at location: <span id="temp">0</span>°C
+            </p>
+            <p> Humidity at location: <span id="humidity">0</span>% </p>
+            <p> Wind speed at location: <span id="wind">0</span> m/s
+            </p>
+            <p> Pressure at location: <span id="pressure">0</span> hPa </p>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

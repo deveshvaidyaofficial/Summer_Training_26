@@ -1,0 +1,128 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.4s;
+    margin:0;
+    padding:20px;
+    background-color: lightblue;
+    text-align: center;
+}
+h1{ text-align: center;
+}
+
+#Change-Theme{
+    position: fixed;
+    align-items: end;
+    top:20px;
+    right:20px;
+    padding:10px 20px;
+    cursor:pointer;
+    border:none;
+    border-radius:5px;
+    color:black;
+    font-size:16px;
+}
+
+#city{
+    align-items: center;
+    border: 1px;
+    border-color: black;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.light-mode{
+    background:white;
+    color:black;
+}
+
+.dark-mode{
+    background:black;
+    color:white;
+}
+
+.dark-mode a{
+    color:#66b3ff;
+}
+
+.hidden{
+    display:none;
+}
+
+#clear {
+    border: 1px;
+    border-color: black;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#clear:hover {
+    background-color: yellowgreen;
+}
+
+#search {
+    border: 1px;
+    border-color: black;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search:hover {
+    background-color: yellowgreen;
+}
+
+#weatherCard{
+    border: 1px;
+    border-color: black;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+            #cityName{ border: 1px;
+    border-color: black;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;}
+            #country{ border: 1px;
+    border-color: black;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;}
+            #dateTime{border: 1px;
+    border-color: black;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;}
+            #temp{ border: 1px;
+    border-color: black;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;} 
+            #humidity{ border: 1px;
+    border-color: black;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;}
+           #wind{ border: 1px;
+    border-color: black;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;}
+           #Pressure{border: 1px;
+    border-color: black;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;}
